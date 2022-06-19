@@ -1,13 +1,40 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* @import url(../fonts/Archia\ Regular\ Desktop/Archia-Regular.otf); */
 
+@font-face
+        {
+      font-family: 'Archia';
+      src: local("Archia"), url("../fonts/Archia Regular Desktop/Archia-Regular.otf");
+    }
+@font-face
+        {
+      font-family: 'BespokeSerif';
+      src: local("BespokeSerif"), url("../fonts/BespokeSerif_Complete/BespokeSerif_Complete/Fonts/OTF/BespokeSerif-Regular.otf");
+    }
+@font-face
+        {
+      font-family: 'BespokeSerifI';
+      src: local("BespokeSerifI"), url("../fonts/BespokeSerif_Complete/BespokeSerif_Complete/Fonts/OTF/BespokeSerif-LightItalic.otf");
+    }
+@font-face
+        {
+      font-family: 'Supreme';
+      src: local("Supreme"), url("../fonts/Supreme_Complete/Supreme_Complete/Fonts/OTF/Supreme-Regular.otf");
+    }
+@font-face
+        {
+      font-family: 'Chillax';
+      src: local("Chillax"), url("../fonts/Chillax_Complete/Chillax_Complete/Fonts/OTF/Chillax-Bold.otf");
+    }
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
+    font-family: Supreme;
 }
 
 a {
@@ -19,3 +46,6 @@ a {
   box-sizing: border-box;
 }
 
+.fontty{
+    font-family: Chillax;
+}

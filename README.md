@@ -35,10 +35,11 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 
 
-Typescript 
-reactjs
-mdx
-tailwind.css
-styled-components
-nextjs
-firebase
+Typescript   done
+reactjs   done
+mdx    done
+tailwind.css  done 
+styled-components  done 
+stitches css done
+nextjs    done 
+firebase    left
