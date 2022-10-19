@@ -8,10 +8,10 @@ const About = () => {
     <AboutContainer>
         <Paragraph>
             <div>
-            I'm a India-based developer. Basically I love working with React. I'm also worked with some other language like Javascript, Typescript, Graphql, Nodejs, Expressjs, Redux, C++, and so more.
+            I am a India-based developer. Basically I love working with React. I am also worked with some other language like Javascript, Typescript, Graphql, Nodejs, Expressjs, Redux, C++, and so more.
             <br></br>
             <br />
-            I'm currently a frontend engineer at <Color className="font-bold">Wrki.ai</Color>. there I'm working with <Color className='font-bold'> Typescript + React.</Color>
+            I am currently a frontend engineer at <Color className="font-bold">Wrki.ai</Color>. there I am working with <Color className='font-bold'> Typescript + React.</Color>
             <br />
             <br />
             <br />
