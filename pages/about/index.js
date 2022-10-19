@@ -39,7 +39,7 @@ const About = () => {
 
      <div>
       <p>
-        Let's come out of the tech world. I like Travelling, Music, Riding etc. 
+        Lets come out of the tech world. I like Travelling, Music, Riding etc. 
       </p>
      </div>
      </Center>

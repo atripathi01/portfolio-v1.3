@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div>
       <HeaderMain className={classes.fontty}>
-        Hey, I'm Ayush Tripathi! 👋
+        Hey, I&#39;m Ayush Tripathi! 👋
       </HeaderMain>
       <HeaderS className={classes.fontty}>
         Frontend developer {'  '}
