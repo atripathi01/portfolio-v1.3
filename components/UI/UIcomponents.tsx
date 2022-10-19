@@ -16,3 +16,7 @@ export const Bold=styled('span',{
 export const LinkTag=({hrefLink,title})=>{
   return <a href={hrefLink}><Color>{title}</Color></a>
 }
+
+export const Input=({})=>{
+
+}

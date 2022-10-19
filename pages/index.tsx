@@ -26,7 +26,7 @@ export default function Home() {
 }
 
 
-const MainContainer = styled('body', {
+const MainContainer = styled('div', {
     color: 'rgba(255,255,255,0.9)',
     // color:'#010101',
     // backgroundColor:"#fff",

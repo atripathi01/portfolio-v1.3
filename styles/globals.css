@@ -28,6 +28,11 @@
       font-family: 'Chillax';
       src: local("Chillax"), url("../fonts/Chillax_Complete/Chillax_Complete/Fonts/OTF/Chillax-Bold.otf");
     }
+@font-face
+        {
+      font-family: 'Inter';
+      src: local("Inter"), url("../fonts/Inter/Inter-VariableFont_slnt\,wght.ttf");
+    }
 html,
 body {
   padding: 0;
@@ -47,5 +52,5 @@ a {
 }
 
 .fontty{
-    font-family: Chillax;
+    font-family: Inter;
 }
