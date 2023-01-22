@@ -7,11 +7,12 @@ const Header = () => {
   return (
     <div>
       <HeaderMain className={classes.fontty}>
-        Hey, I&#39;m Ayush Tripathi! 👋
+        Hey, I&#39;m Ayush! 👋
       </HeaderMain>
       <HeaderS className={classes.fontty}>
         Frontend developer {'  '}
         <Languages>
+          
           <Typewriter
             options={{
               strings: ['Reactjs', 'Typescript','Javascript','Graphql','Nextjs','Nodejs','Expressjs','MongoDB','Framer-Motion','Figma','Styled-components','AWS Amplify & AppSync'],

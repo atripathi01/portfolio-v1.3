@@ -32,12 +32,12 @@ const Contact = () => {
             <LeftContainer>
               <form>
               <label>Name</label><br />
-              <input placeholder="enter your name" /><br />
+              <input placeholder="enter your name" style={{padding:"5px 10px",margin:"3px 0",color:"#010101"}}/><br />
               <label>Email</label><br />
-              <input placeholder="enter your email"/><br />
+              <input placeholder="enter your email" style={{padding:"5px 10px",margin:"3px 0",color:"#010101"}}/><br />
               <label>Messege</label><br />
-              <textarea placeholder="enter messege" /><br />
-              <button type="submit">Send</button>
+              <textarea placeholder="enter messege" style={{padding:"5px 10px",margin:"3px 0",color:"#010101"}}/><br />
+              <button type="submit" style={{padding:"3px 5px", background:"#7510F7", color:"#ffffff", borderRadius:"2px"}}>Send</button>
               </form>
               
 
@@ -89,7 +89,14 @@ const Title = styled("h1", {
   length: 0,
 });
 const MailBox = styled("div");
-const MainContainer = styled("section");
-const RightContainer = styled("div");
+const MainContainer = styled("section",{
+  display:"flex",
+  justifyContent:"flex-start",
+  alignItems:"center",
+  paddingBottom:"5rem"
+});
+const RightContainer = styled("div",{
+  marginRight:"4rem"
+});
 const LeftContainer = styled("div");
 export default Contact;
