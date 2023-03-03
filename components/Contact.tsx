@@ -10,17 +10,16 @@ const Contact = () => {
     <MainContact className="pt-9">
       <ContactBody>
         <Note>
-          If you interest and know more about me and my works. You can check my
-          Resume
+        If you are interested and want to know more about me and my works.You can check my <span><a style={{color:"#7510f7"}} href="https://drive.google.com/file/d/1dgLSyGCcgdLblutYwPBtiZ9UhbokShuW/view?usp=sharing">Resume</a></span>
         </Note>
-        <ResumeBtn className="mb-8">Resume</ResumeBtn>
+        {/* <ResumeBtn className="mb-8">Resume</ResumeBtn> */}
         <Title className="mt-6 mb-8">Connect with me,</Title>
 
         <MailBox>
           <MainContainer>
             <RightContainer>
               If want to connect or contact <br />
-              you sent me mail.
+              you sent me a mail.
               <br />
               <Social className="pt-9">
                 <TwitterIcon className="text-3xl" />
