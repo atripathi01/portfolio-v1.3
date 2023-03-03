@@ -84,7 +84,7 @@ export const data = [
 export const equpiment = [
   {
     title: "MacBook Air M2 (Midnight) ",
-    para: "This is speechless, I love work with my Mac.",
+    para: "This is speechless, I love working with my Mac.",
     link: "https://www.apple.com/in/macbook-air-m2/",
     key: "m2",
   },

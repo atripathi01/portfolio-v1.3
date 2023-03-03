@@ -15,12 +15,9 @@ const About = () => {
         </h1>
 
       <div>
-        Hey there, I am Ayush Tripathi, Frontend developer. Currently I am work in <a href='https://www.wrky.ai/'>Wrky.ai</a> as a Frontend developer 
-        and also I am in my final year of Bechelor of Technology (B.tech.) with the Computer Science of Engineering stream 
-        . I have  1+ year of experiences on frontend development. and also work on 
-        different-different project as a Freelencer
+      Hey there, I am Ayush Tripathi, a front-end developer. Currently, I am working in  <a href='https://www.wrky.ai/'>Wrky.ai</a> as a Frontend developer and also I am in the final year of my Bachelor of Technology (B.tech.) with the Computer Science of Engineering stream. I have 1+ year of experience in frontend development. and also work on a different-different projects as a Freelancer
       </div>
-      <h1>Some Equpiments, which I using!!  </h1>
+      <h1>Some Equipment, which I using!!  </h1>
       
       {equpiment?.map((ls)=>(
         <div key={ls.key} className='mt-2 mb-4'>
@@ -39,7 +36,7 @@ const About = () => {
 
      <div>
       <p>
-        Lets come out of the tech world. I like Travelling, Music, Riding etc. 
+        Let us come out of the tech world. I like Travelling, Music, Riding, etc. 
       </p>
      </div>
      </Center>
